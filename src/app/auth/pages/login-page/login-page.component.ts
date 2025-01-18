@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthServiceService } from '../../services/auth.service';
+import { AuthService } from '../../services/auth.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -13,7 +13,7 @@ export class LoginPageComponent {
 
 
   constructor(
-    private authService: AuthServiceService,
+    private authService: AuthService,
     private router: Router
   ) {}
 

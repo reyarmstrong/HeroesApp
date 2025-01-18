@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AuthServiceService } from '../../../auth/services/auth.service';
+import { AuthService } from '../../../auth/services/auth.service';
 import { User } from '../../../auth/interfaces/user.interface';
 import { Router } from '@angular/router';
 
@@ -35,7 +35,7 @@ export class LayoutPageComponent {
   }
 
   constructor(
-    private authService: AuthServiceService,
+    private authService: AuthService,
     private router: Router
   ) {}
 
