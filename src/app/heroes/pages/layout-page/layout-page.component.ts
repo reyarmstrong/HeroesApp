@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { AuthServiceService } from '../../../auth/services/auth.service';
+import { User } from '../../../auth/interfaces/user.interface';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-layout-page',
@@ -25,6 +28,20 @@ export class LayoutPageComponent {
       icon: 'search',
       url: './search'
     },
-  ]
+  ];
+
+  get user(): User | undefined {
+    return this.authService.currentUser;
+  }
+
+  constructor(
+    private authService: AuthServiceService,
+    private router: Router
+  ) {}
+
+  onLogout(): void {
+    this.authService.logout();
+    this.router.navigate(['/auth/login']);
+  }
 
 }
