@@ -21,7 +21,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "characters": "Kal-El",
+      "alt_img": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/04/SUPER01-CVR.jpg"
     },
     {
       "id": "dc-flash",
@@ -166,6 +167,15 @@
       "alter_ego": "Norrin Radd",
       "first_appearance": "The Fantastic Four #48",
       "characters": "Norrin Radd"
+    },
+    {
+      "id": "oIvp7bQ",
+      "superhero": "Nacho Libre",
+      "publisher": "DC Comics",
+      "alter_ego": "Ignacio",
+      "first_appearance": "Nacho Libre",
+      "characters": "Nacho Libre",
+      "alt_img": "https://assets.mycast.io/actor_images/actor-ignacio-nacho-578916_large.jpg?1667006253"
     }
   ]
 }
